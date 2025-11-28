@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
+  <title id="title">Craft Beer School logo</title>
+  <desc id="desc">A stylized pint glass with rising bubbles and a graduation cap framed by barley.</desc>
+  <defs>
+    <linearGradient id="glass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffe9b6" />
+      <stop offset="100%" stop-color="#f4a226" />
+    </linearGradient>
+    <linearGradient id="foam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fff8eb" />
+      <stop offset="100%" stop-color="#ffe2a2" />
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="32" fill="#0f1720" />
+  <g transform="translate(20 20)">
+    <path
+      d="M80 32h60c6.6 0 12 5.4 12 12v78c0 26.5-21.5 48-48 48s-48-21.5-48-48V44c0-6.6 5.4-12 12-12Z"
+      fill="url(#glass)"
+      stroke="#5a3413"
+      stroke-width="5"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M76 38c0-6.6 5.4-12 12-12h64c6.6 0 12 5.4 12 12v6c0 4.4-3.6 8-8 8H84c-4.4 0-8-3.6-8-8Z"
+      fill="url(#foam)"
+      stroke="#fdf6e3"
+      stroke-width="5"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M140 118c-6 9-17 15-30 15s-24-6-30-15"
+      fill="none"
+      stroke="#5a3413"
+      stroke-width="5"
+      stroke-linecap="round"
+    />
+    <g fill="#ffeeda">
+      <circle cx="108" cy="72" r="6" />
+      <circle cx="124" cy="82" r="5" />
+      <circle cx="100" cy="92" r="4" />
+      <circle cx="116" cy="104" r="4" />
+    </g>
+    <g transform="translate(54 22) rotate(-10 94 0)">
+      <path
+        d="M146 0 110 12c-4.2 1.4-4.2 7.2 0 8.6l36 12c2.3.8 4.8-.9 4.8-3.4V3.4c0-2.5-2.5-4.2-4.8-3.4Z"
+        fill="#f4a226"
+        stroke="#5a3413"
+        stroke-width="4"
+        stroke-linejoin="round"
+      />
+      <path d="M124 28v12c0 3.3 2.7 6 6 6h16c3.3 0 6-2.7 6-6V28" fill="none" stroke="#ffeeda" stroke-width="4" />
+    </g>
+    <g fill="#f4a226" stroke="#f4a226" stroke-linecap="round" stroke-width="6">
+      <path d="M28 152c12-4 30-18 40-34" />
+      <path d="M28 170c16-8 36-26 48-46" />
+      <path d="M180 152c-12-4-30-18-40-34" />
+      <path d="M180 170c-16-8-36-26-48-46" />
+    </g>
+    <circle cx="108" cy="182" r="8" fill="#ffeeda" />
+  </g>
+</svg>

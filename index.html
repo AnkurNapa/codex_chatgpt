@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Craft Beer School – Master the Art of Brewing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SzlrxWriC3O9R9T4S0V0DkM5Jd5vO8p7b4efRgq3z1E5VI1Q6XfY9VZW+M6u9D0f4nYb6Yv7X5Q5Q5Z5dXK3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-grid" aria-hidden="true"></div>
+    <header class="site-header">
+      <div class="container header-row">
+        <a href="#top" class="brand" aria-label="Craft Beer School home">
+          <img src="assets/logo.svg" alt="Craft Beer School logo" class="brand-mark" />
+          <div class="brand-copy">
+            <span class="brand-title">Craft Beer School</span>
+            <span class="brand-sub">Craft your knowledge. Brew your future.</span>
+          </div>
+        </a>
+        <nav class="nav">
+          <a href="#about">About</a>
+          <a href="#courses">Courses</a>
+          <a href="#faculty">Faculty</a>
+          <a href="#contact" class="pill">Enroll</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-text">
+            <p class="eyebrow">Interactive online platform</p>
+            <h1>Craft your knowledge. Brew your future.</h1>
+            <p class="lede">
+              Beer wisdom meets modern brewing mastery. Learn with seasoned experts across brewing science, beer communication,
+              and branding—plus the community to keep you curious.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#courses">Explore courses</a>
+              <a class="button secondary" href="https://nas.io/craftbeer" target="_blank" rel="noreferrer">
+                <i class="fa-solid fa-users"></i>
+                Join our school
+              </a>
+              <a class="button ghost" href="#preview">Preview the platform</a>
+            </div>
+            <div class="pill-row">
+              <span class="pill muted">Virtual brew labs</span>
+              <span class="pill muted">Micro-cohorts</span>
+              <span class="pill muted">Certification ready</span>
+            </div>
+          </div>
+          <div class="hero-card" aria-label="4-week roadmap">
+            <div class="pill accent">4-week roadmap</div>
+            <h2>From grain to glass</h2>
+            <ol>
+              <li>Flavor map &amp; style discovery</li>
+              <li>All-grain lab &amp; water tuning</li>
+              <li>Fermentation mastery &amp; QA</li>
+              <li>Packaging, draft, and service</li>
+            </ol>
+            <p class="meta">Graduate with a taproom-ready recipe and tasting portfolio.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="preview" class="section preview">
+        <div class="container preview-grid">
+          <div class="stack">
+            <p class="eyebrow">Preview</p>
+            <h2>See how the Craft Beer School experience flows.</h2>
+            <p>
+              Walk through a full learning sprint—from your welcome kit to recipe certification. Everything runs in one
+              streamlined workspace that keeps your calendar, labs, and mentors close.
+            </p>
+            <ul class="flow-list">
+              <li>
+                <div class="icon-circle"><i class="fa-solid fa-play"></i></div>
+                <div>
+                  <strong>Guided welcome</strong>
+                  <p>Onboard with tasting cues, safety tips, and your brewing checklist in under 10 minutes.</p>
+                </div>
+              </li>
+              <li>
+                <div class="icon-circle"><i class="fa-solid fa-flask"></i></div>
+                <div>
+                  <strong>Hands-on labs</strong>
+                  <p>Follow stepwise lab flows for mash, fermentation, and QA with checkpoints you can replay.</p>
+                </div>
+              </li>
+              <li>
+                <div class="icon-circle"><i class="fa-solid fa-comments"></i></div>
+                <div>
+                  <strong>Mentor touchpoints</strong>
+                  <p>Drop questions in chat, book a 1:1, or join office hours without leaving the lesson.</p>
+                </div>
+              </li>
+              <li>
+                <div class="icon-circle"><i class="fa-solid fa-award"></i></div>
+                <div>
+                  <strong>Proof of skill</strong>
+                  <p>Earn badges for every stage and share a certified recipe sheet when you graduate.</p>
+                </div>
+              </li>
+            </ul>
+            <div class="pill-row">
+              <span class="pill">Timeline view</span>
+              <span class="pill">Saved replays</span>
+              <span class="pill">Downloadable SOPs</span>
+            </div>
+          </div>
+          <div class="preview-card" aria-label="Course preview">
+            <div class="preview-header">
+              <span class="pill accent">Interactive flow</span>
+              <span class="pill muted">Student view</span>
+            </div>
+            <div class="preview-stage">
+              <div class="stage-row">
+                <span class="stage-dot active"></span>
+                <div>
+                  <p class="small-label">Step 1</p>
+                  <p class="stage-title">Flavor map &amp; style discovery</p>
+                  <p class="meta">15 min · Instructor video + tasting worksheet</p>
+                </div>
+              </div>
+              <div class="stage-row">
+                <span class="stage-dot"></span>
+                <div>
+                  <p class="small-label">Step 2</p>
+                  <p class="stage-title">All-grain lab &amp; water tuning</p>
+                  <p class="meta">45 min · Guided mash profile with checkpoints</p>
+                </div>
+              </div>
+              <div class="stage-row">
+                <span class="stage-dot"></span>
+                <div>
+                  <p class="small-label">Step 3</p>
+                  <p class="stage-title">Fermentation mastery &amp; QA</p>
+                  <p class="meta">30 min · Yeast health, sampling, and notes</p>
+                </div>
+              </div>
+              <div class="stage-row">
+                <span class="stage-dot"></span>
+                <div>
+                  <p class="small-label">Step 4</p>
+                  <p class="stage-title">Packaging, draft, and service</p>
+                  <p class="meta">20 min · Carbonation tests and service SOP</p>
+                </div>
+              </div>
+            </div>
+            <div class="preview-footer">
+              <p class="meta">Want to see it live? We’ll send a guided preview link.</p>
+              <a class="button primary full" href="#contact">Book a preview</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section about">
+        <div class="container split">
+          <div class="stack">
+            <p class="eyebrow">About Craft Beer School</p>
+            <h2>Instruction rooted in science, culture, and the joy of sharing a pint.</h2>
+            <p>
+              Craft Beer School is an interactive online platform dedicated to educating and empowering the next generation of beer
+              professionals and passionate enthusiasts. Founded by seasoned experts with real-world experience in brewing, beer
+              science, beer communication, and branding—including podcasting and storytelling—our school offers a dynamic space to
+              gain industry-relevant skills, share insights, and connect with fellow brewers and mentors.
+            </p>
+            <p>
+              From grain to glass, our curriculum covers the science, artistry, and business of beer. Whether you're refining your
+              craft, starting a venture, or exploring brewing as a serious passion, you'll gain practical knowledge and hands-on
+              techniques rooted in industry standards.
+            </p>
+            <div class="badge-row">
+              <span class="badge">Real-world practices</span>
+              <span class="badge">Story-led lessons</span>
+              <span class="badge">Peer community</span>
+            </div>
+          </div>
+          <div class="feature-card">
+            <h3>Why students choose us</h3>
+            <ul class="feature-list">
+              <li>
+                <div class="icon-circle"><i class="fa-solid fa-industry"></i></div>
+                <div>
+                  <strong>Brew like a pro</strong>
+                  <p>Virtual labs mirror a fully equipped brewery with pro guidance.</p>
+                </div>
+              </li>
+              <li>
+                <div class="icon-circle"><i class="fa-solid fa-chalkboard-user"></i></div>
+                <div>
+                  <strong>Learn from the best</strong>
+                  <p>Seasoned brewers and industry leaders teach live, not pre-recorded.</p>
+                </div>
+              </li>
+              <li>
+                <div class="icon-circle"><i class="fa-solid fa-award"></i></div>
+                <div>
+                  <strong>Get certified. Get noticed.</strong>
+                  <p>Earn credentials that open doors across the craft beer industry.</p>
+                </div>
+              </li>
+              <li>
+                <div class="icon-circle"><i class="fa-solid fa-user-group"></i></div>
+                <div>
+                  <strong>Tap into the industry</strong>
+                  <p>Build meaningful connections with brewers, suppliers, and mentors.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="courses" class="section courses">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Our courses</p>
+            <h2>Pick the path that matches your pour.</h2>
+            <p>Each course blends science, story, and practice so you can brew with confidence and creativity.</p>
+          </div>
+          <div class="course-grid">
+            <article class="course-card">
+              <div class="course-top">
+                <h3><i class="fa-solid fa-beer-mug-empty"></i> Brewing Fundamentals</h3>
+                <span class="pill">4 weeks</span>
+              </div>
+              <p class="price">₹5,999</p>
+              <p>Perfect for beginners. Learn brewing science, ingredients, equipment, sanitation, and recipe basics.</p>
+              <ul>
+                <li>Brewing science and theory</li>
+                <li>Raw materials and quality</li>
+                <li>Equipment and sanitation</li>
+                <li>Recipe formulation basics</li>
+              </ul>
+            </article>
+            <article class="course-card">
+              <div class="course-top">
+                <h3><i class="fa-solid fa-flask"></i> Advanced Brewing Science</h3>
+                <span class="pill">6 weeks</span>
+              </div>
+              <p class="price">₹12,999</p>
+              <p>Deep dive into chemistry and microbiology. Master fermentation, water chemistry, and QA methods.</p>
+              <ul>
+                <li>Microbiology and fermentation</li>
+                <li>Water chemistry optimization</li>
+                <li>Advanced mashing techniques</li>
+                <li>Quality assurance protocols</li>
+              </ul>
+            </article>
+            <article class="course-card">
+              <div class="course-top">
+                <h3><i class="fa-solid fa-chart-line"></i> Brewery Business Management</h3>
+                <span class="pill">3 weeks</span>
+              </div>
+              <p class="price">₹8,999</p>
+              <p>Master the business side: finance, marketing, distribution, regulations, and scaling production.</p>
+              <ul>
+                <li>Business planning and finance</li>
+                <li>Licensing and regulations</li>
+                <li>Marketing and branding</li>
+                <li>Distribution strategies</li>
+              </ul>
+            </article>
+            <article class="course-card">
+              <div class="course-top">
+                <h3><i class="fa-solid fa-award"></i> Style Specialization</h3>
+                <span class="pill">8 weeks</span>
+              </div>
+              <p class="price">₹18,999</p>
+              <p>Master IPAs, stouts, lagers, sours, and Belgian ales with historical context and modern techniques.</p>
+              <ul>
+                <li>Style guidelines and history</li>
+                <li>Specialized techniques</li>
+                <li>Ingredient selection</li>
+                <li>Competition brewing</li>
+              </ul>
+            </article>
+            <article class="course-card">
+              <div class="course-top">
+                <h3><i class="fa-solid fa-palette"></i> Beer Branding &amp; Packaging</h3>
+                <span class="pill">3 weeks</span>
+              </div>
+              <p class="price">₹4,999</p>
+              <p>Create compelling beer brands and packaging. Perfect for brewers, entrepreneurs, and fans.</p>
+              <ul>
+                <li>Week 1: Build your beer brand identity</li>
+                <li>Week 2: Design packaging that pops</li>
+                <li>Week 3: Launch planning &amp; promotion</li>
+                <li>Digital certificate &amp; community access</li>
+              </ul>
+            </article>
+            <article class="course-card">
+              <div class="course-top">
+                <h3><i class="fa-solid fa-eye"></i> Sensory Evaluation</h3>
+                <span class="pill">2 weeks</span>
+              </div>
+              <p class="price">₹5,999</p>
+              <p>Develop your palate with professional techniques. Identify off-flavors, run sensory panels, and score quality.</p>
+              <ul>
+                <li>Flavor chemistry</li>
+                <li>Tasting techniques</li>
+                <li>Off-flavor identification</li>
+                <li>Quality scoring systems</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="faculty" class="section faculty">
+        <div class="container">
+          <div class="section-heading light">
+            <p class="eyebrow">Faculty</p>
+            <h2>Learn from makers, storytellers, and innovators.</h2>
+          </div>
+          <div class="faculty-grid">
+            <article class="faculty-card">
+              <div class="avatar"><i class="fa-solid fa-user-tie"></i></div>
+              <h3>Ankur Napa</h3>
+              <p class="role">Course Instructor · Master Brewer</p>
+              <p>
+                Master Brewer with hands-on experience at AB InBev, SABMiller, and United Breweries. Blends traditional craft with
+                AI-driven brewing to optimize flavor and consistency—delivering practical, industry-grounded training.
+              </p>
+            </article>
+            <article class="faculty-card">
+              <div class="avatar"><i class="fa-solid fa-microphone"></i></div>
+              <h3>Chatty Girija</h3>
+              <p class="role">Beer Podcaster · Creative Strategist</p>
+              <p>
+                30+ years in advertising and deep passion for craft beer. Co-founder of Craft Beer School and host of Cheers
+                Chatty, India's first beer podcast—bringing the business of beer to life with stories, insights, and energy.
+              </p>
+              <p class="tagline">Because beer is a cheerful way of life. Cheers!</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section cta">
+        <div class="container cta-box">
+          <div>
+            <p class="eyebrow">Ready to start?</p>
+            <h2>Secure a seat in the next cohort.</h2>
+            <p>We cap classes so every brewer gets one-on-one mentoring. Tell us where you want to grow and we’ll tailor your path.</p>
+          </div>
+          <div class="cta-actions">
+            <a class="button primary" href="#contact">Join the waitlist</a>
+            <a class="button ghost" href="#courses">See the syllabus</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div class="container contact-grid">
+          <div class="stack">
+            <p class="eyebrow">Contact</p>
+            <h2>Tell us about your brewing goals.</h2>
+            <p>Share your experience level, preferred styles, and schedule. We’ll respond within one business day.</p>
+            <div class="contact-info">
+              <div>
+                <p class="small-label">Address</p>
+                <p class="meta">Bangalore, Karnataka, India</p>
+              </div>
+              <div>
+                <p class="small-label">Phone</p>
+                <p class="meta">+91 98209 25347 (Ankur Napa)</p>
+              </div>
+              <div>
+                <p class="small-label">Email</p>
+                <p class="meta">napaankur@gmail.com</p>
+              </div>
+              <div>
+                <p class="small-label">Office hours</p>
+                <p class="meta">Mon–Fri: 9AM–6PM · Sat: 10AM–4PM</p>
+              </div>
+              <div>
+                <p class="small-label">Brewery tours</p>
+                <p class="meta">Schedule a visit to meet faculty, see the lab, and taste student brews.</p>
+              </div>
+            </div>
+          </div>
+          <form class="contact-form" action="https://formsubmit.co/napaankur@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="New Contact Form Submission - Craft Beer School" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="hidden" name="_next" value="https://craftbeer.in#contact" />
+
+            <label>
+              Full name*
+              <input type="text" name="name" id="name" placeholder="Your name" required />
+            </label>
+            <label>
+              Email address*
+              <input type="email" name="email" id="email" placeholder="you@example.com" required />
+            </label>
+            <label>
+              Phone number
+              <input type="tel" name="phone" id="phone" placeholder="Include country code" />
+            </label>
+            <label>
+              Course interest
+              <select name="course_interest" id="course">
+                <option value="">Select a course</option>
+                <option value="Brewing Fundamentals">Brewing Fundamentals (4 weeks - ₹5,999)</option>
+                <option value="Advanced Brewing Science">Advanced Brewing Science (6 weeks - ₹12,999)</option>
+                <option value="Brewery Business Management">Brewery Business Management (3 weeks - ₹8,999)</option>
+                <option value="Style Specialization">Style Specialization (8 weeks - ₹18,999)</option>
+                <option value="Beer Branding & Packaging">Beer Branding & Packaging (3 weeks - ₹4,999)</option>
+                <option value="Sensory Evaluation">Sensory Evaluation (2 weeks - ₹5,999)</option>
+                <option value="General Inquiry">General Inquiry</option>
+              </select>
+            </label>
+            <label>
+              Message
+              <textarea name="message" id="message" rows="4" placeholder="Tell us about your goals"></textarea>
+            </label>
+            <button type="submit" class="button primary full">Submit</button>
+            <button type="button" class="button whatsapp" onclick="sendWhatsAppMessage()">
+              <i class="fa-brands fa-whatsapp"></i>
+              Send via WhatsApp
+            </button>
+            <p class="form-note">We keep your info private and never spam.</p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div class="brand">
+          <img src="assets/logo.svg" alt="Craft Beer School logo" class="brand-mark" />
+          <div class="brand-copy">
+            <span class="brand-title">Craft Beer School</span>
+            <span class="brand-sub">Hands-on craft beer education.</span>
+          </div>
+        </div>
+        <div class="footer-links">
+          <a href="#about">About</a>
+          <a href="#courses">Courses</a>
+          <a href="#faculty">Faculty</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-links social">
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      function sendWhatsAppMessage() {
+        const name = document.getElementById('name').value || '[Not provided]';
+        const email = document.getElementById('email').value || '[Not provided]';
+        const phone = document.getElementById('phone').value || '[Not provided]';
+        const course = document.getElementById('course').value || '[Not selected]';
+        const message = document.getElementById('message').value || '[No additional message]';
+
+        const whatsappMessage = `Hi Ankur,\n\nI'm interested in Craft Beer School courses. Here are my details:\n\n*Name:* ${name}\n*Email:* ${email}\n*Phone:* ${phone}\n*Course Interest:* ${course}\n*Message:* ${message}\n\nPlease share more information about the courses.\n\nThanks!`;
+
+        const encodedMessage = encodeURIComponent(whatsappMessage);
+        const whatsappURL = `https://wa.me/919820925347?text=${encodedMessage}`;
+        window.open(whatsappURL, '_blank');
+      }
+
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener('click', (event) => {
+          const targetId = anchor.getAttribute('href');
+          if (targetId.length > 1) {
+            event.preventDefault();
+            document.querySelector(targetId).scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
